@@ -1,0 +1,165 @@
+*{
+    overflow: auto;
+   
+}
+
+body{
+    background-color: #8ba1bb;
+    font: arial;
+    margin:60px 10% 60px 10%;
+    
+
+}
+p.categorie{
+    background-color: black;
+    color: white;
+   display: inline-block;
+    max-width: 80px;  
+    margin-top: 0px;
+    margin-bottom: -10px;
+    padding: 8px 18px;
+    font-weight: bold;
+    font-size: 16px;
+   
+}
+div.categorie{
+    text-align:center;
+}
+div.contenu{
+    background-color: white;
+    padding: 20px;
+    min-width: 320px;
+    
+}
+   
+
+h1{
+    text-align: center;
+    margin-bottom: -10px;
+    margin: 5px;
+    padding-bottom: 5px;
+}
+p.descripton{
+    text-align: center;
+    max-width: 500px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 14px;
+   
+}
+
+div.description{
+    text-align: center;
+}
+
+.centre{
+    text-align: center;
+    width: 100%;
+}
+
+div.categorie{
+    margin-bottom: -10px;
+    margin-top: 60px;
+}
+
+div.separateur{
+    background-color: black;
+    width: 100px;
+    height: 1px;
+    margin: auto;
+    margin-bottom: -10;
+
+}
+table.infos{
+    position: absolute;
+    bottom:0px;
+     width: 100%;
+    background-color:#6C829DC0;
+    color:white;
+    height:50px;
+    
+}
+table.infos td{
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 10px;
+    
+}
+
+table.infos th{
+    font-size: 16px;
+  
+    
+}
+div.infos{
+    position: relative;
+}
+
+
+img.infos{
+    display: block;
+    object-fit:cover;
+    min-height: 200px;
+    max-height: 500px;
+    background-color: lightgray;
+
+}
+.colonne{
+    width: 45%;
+    margin-top: 20px
+   
+}
+.colonne h2{
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    border-bottom:solid;
+    border-width: 5px;
+    border-color: #6C829D;
+    
+}
+.colonne1{
+    display: inline-block;
+    margin-right: 10%;
+   
+ 
+   
+}
+.colonne2{
+    float: right;
+}
+.ingredient p{
+    border: 1px solid lightgray;
+    padding: 5px 0px;
+    text-align: center;
+    margin: 5px;
+}
+.numbers{
+    background-color: #6C829D;
+    background-size: 700px;
+    border-radius: 5px;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+   text-align: center;
+   color: white;
+   font-weight: bold;
+   font-size: 15px;
+   margin: 7px;
+   padding-top: 5px;
+   object-fit: cover;
+   margin: 0px;
+}
+table.preparation td{
+    vertical-align: top;
+}
+table.preparation td.etapes{
+    font-size: 14px;
+    padding-left: 10px;
+}
+table.preparation td{
+    height: 40px;
+}
+
+
